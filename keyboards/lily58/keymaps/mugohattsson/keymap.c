@@ -1,5 +1,8 @@
 #include QMK_KEYBOARD_H
 
+// build with: qmk compile (-kb lily58/rev1 -km mugohattsson)
+// flash(from root dir): make lily58/rev1:mugohattsson:dfu
+
 enum layer_number {
   _QWERTY = 0,
   _LOWER,
